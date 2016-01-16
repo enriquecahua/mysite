@@ -55,8 +55,7 @@
 }
 
 body {
- background-image: url("cheap_diagonal_fabric.png");
-  
+ background-image:url("images/cheap_diagonal_fabric.png");
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -158,7 +157,7 @@ img {
   max-width:100%;
    -ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(180deg);
+    /*transform: rotate(180deg);*/
 border-radius:30px;
 }
 
