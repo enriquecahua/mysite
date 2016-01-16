@@ -55,7 +55,8 @@
 }
 
 body {
-  background-color: #fff;
+ background-image: url("file:///C:/Users/lenovo/Desktop/Projects/GitHubPage/mysite/images/cheap_diagonal_fabric.png");
+  
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -155,20 +156,29 @@ th {
 
 img {
   max-width:100%;
+   -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+border-radius:30px;
 }
 
 header {
-  width:270px;
+  width:200px;
   float:left;
-  position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
+  position:left;
+  /*-webkit-font-smoothing:subpixel-antialiased; */
+background-color:none;
+background-image: url("file:///C:/Users/lenovo/Desktop/Projects/GitHubPage/mysite/images/cheap_diagonal_fabric.png");
+border-radius: 10px;
+
 }
+
 
 header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #f4f4f4;
+  backgrsound: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
   width:270px;
@@ -176,7 +186,7 @@ header ul {
 
 header li {
   width:89px;
-  float:left;
+  float:right;
   border-right:1px solid #e0e0e0;
   height:40px;
 }
@@ -222,6 +232,7 @@ header ul a strong {
   display:block;
   color:#222;
 }
+
 
 section {
   width:500px;
