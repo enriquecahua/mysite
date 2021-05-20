@@ -155,9 +155,9 @@ th {
 
 img {
   max-width:100%;
-   -ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    /*transform: rotate(180deg);*/
+   /*-ms-transform: rotate(180deg); /* IE 9 */
+   /* -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+   /* transform: rotate(180deg);*/
 border-radius:30px;
 }
 
